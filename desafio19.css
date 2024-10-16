@@ -26,7 +26,7 @@ body {
         }
 
         button {
-            background-color: #c802f0; /* Verde */
+            background-color: #c802f0; 
             color: white;
             padding: 10px 20px;
             border: none;
@@ -38,5 +38,5 @@ body {
         }
 
         button:hover {
-            background-color: #375774; /* Verde mais escuro */
+            background-color: #375774; 
         }
