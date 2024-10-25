@@ -18,7 +18,7 @@
                 <img src="bandeira3.jpg" alt="Bandeira 3" class="thumbnail" onclick="ampliarImagem(this)">
             </div>
             <div class="main-image">
-                <img id="ampliada" src="bandeira1.png">
+                <img id="ampliada" src="bandeira1.jpg">
             </div>
         </div>
         <div class="hino-container">
@@ -73,6 +73,14 @@
         <p id="data">24/10/2024</p>
     </footer>
 
-    <script src="./Página Criada pela IA_files/desafio IA3.js.download"></script>
+    <script>
+        function ampliarImagem(imagem) {
+    var imagemAmpliada = document.getElementById('ampliada');
+    imagemAmpliada.src = imagem.src;
+}
+
+// Função para exibir a data atual
+document.getElementById('data').innerHTML = new Date().toLocaleDateString('pt-BR');
+    </script>
 </body>
 </html>
